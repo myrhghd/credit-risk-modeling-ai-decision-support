@@ -7,6 +7,10 @@ name = "credit-risk-modeling-ai-decision-support"
 version = "0.1.0"
 description = "End-to-end credit risk modeling and AI decision support platform."
 requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas>=2.2",
+    "pyarrow>=15",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
