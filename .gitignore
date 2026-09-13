@@ -29,6 +29,7 @@ data/raw/*
 data/interim/*
 data/processed/*
 data/external/*
+!data/interim/raw_dataset_inventory.json
 
 # Preserve directory structure
 !data/raw/.gitkeep
@@ -39,6 +40,14 @@ data/external/*
 # Model / experiment artifacts
 artifacts/*
 !artifacts/.gitkeep
+!artifacts/features/
+!artifacts/features/ambiguous_source_review.json
+!artifacts/features/applicant_feature_registry.json
+!artifacts/features/applicant_feature_selection_manifest.json
+!artifacts/features/parquet_export_manifest.json
+!artifacts/source_catalog/
+!artifacts/source_catalog/feature_catalog.json
+!artifacts/source_catalog/table_family_summary.md
 mlruns/
 mlartifacts/
 

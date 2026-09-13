@@ -1,0 +1,128 @@
+[
+  {
+    "source_table": "applprev_2",
+    "source_column": "cacccardblochreas_147M",
+    "decision": "keep",
+    "reason": "Card blocking reason is a status-like credit behavior signal."
+  },
+  {
+    "source_table": "credit_bureau_b_1",
+    "source_column": "credor_3940957M",
+    "decision": "exclude",
+    "reason": "Creditor name is identifier-like and likely high-cardinality/free-text."
+  },
+  {
+    "source_table": "other_1",
+    "source_column": "amtdepositbalance_4809441A",
+    "decision": "keep",
+    "reason": "Definition supports a deposit-balance amount signal."
+  },
+  {
+    "source_table": "person_1",
+    "source_column": "relationshiptoclient_415T",
+    "decision": "keep",
+    "reason": "Relationship to client is a participant-context categorical signal."
+  },
+  {
+    "source_table": "person_1",
+    "source_column": "relationshiptoclient_642T",
+    "decision": "keep",
+    "reason": "Relationship to client is a participant-context categorical signal."
+  },
+  {
+    "source_table": "person_1",
+    "source_column": "remitter_829L",
+    "decision": "review_later",
+    "reason": "Remitter flag may be useful, but definition is too sparse for first compact set."
+  },
+  {
+    "source_table": "person_1",
+    "source_column": "safeguarantyflag_411L",
+    "decision": "review_later",
+    "reason": "Product/safeguard flag needs timing and policy review."
+  },
+  {
+    "source_table": "static_0",
+    "source_column": "eir_270L",
+    "decision": "keep",
+    "reason": "Interest rate is a direct loan-pricing signal."
+  },
+  {
+    "source_table": "static_0",
+    "source_column": "interestrategrace_34L",
+    "decision": "review_later",
+    "reason": "Grace-period interest rate has unclear applicability and sparse smoke evidence."
+  },
+  {
+    "source_table": "static_0",
+    "source_column": "isbidproduct_1095L",
+    "decision": "review_later",
+    "reason": "Cross-sell product flag needs timing and policy review."
+  },
+  {
+    "source_table": "static_0",
+    "source_column": "isbidproductrequest_292L",
+    "decision": "review_later",
+    "reason": "Cross-sell request flag needs timing and policy review."
+  },
+  {
+    "source_table": "static_0",
+    "source_column": "isdebitcard_729L",
+    "decision": "review_later",
+    "reason": "Debit-card product flag needs timing and product-policy review."
+  },
+  {
+    "source_table": "static_cb_0",
+    "source_column": "for3years_504L",
+    "decision": "review_later",
+    "reason": "Credit-history window field is broad and semantically underspecified."
+  },
+  {
+    "source_table": "static_cb_0",
+    "source_column": "forquarter_634L",
+    "decision": "review_later",
+    "reason": "Credit-history window field is broad and semantically underspecified."
+  },
+  {
+    "source_table": "static_cb_0",
+    "source_column": "fortoday_1092L",
+    "decision": "review_later",
+    "reason": "Same-day credit-history field needs timing/leakage review."
+  },
+  {
+    "source_table": "static_cb_0",
+    "source_column": "foryear_850L",
+    "decision": "review_later",
+    "reason": "Credit-history window field is broad and semantically underspecified."
+  },
+  {
+    "source_table": "static_cb_0",
+    "source_column": "riskassesment_302T",
+    "decision": "exclude",
+    "reason": "Known leakage-review field estimating default probability."
+  },
+  {
+    "source_table": "static_cb_0",
+    "source_column": "riskassesment_940T",
+    "decision": "exclude",
+    "reason": "Creditworthiness estimate is model/score-like and unsafe for first-generation model."
+  },
+  {
+    "source_table": "tax_registry_a_1",
+    "source_column": "name_4527232M",
+    "decision": "exclude",
+    "reason": "Employer name is identifier-like and unsuitable without privacy/cardinality treatment."
+  },
+  {
+    "source_table": "tax_registry_b_1",
+    "source_column": "name_4917606M",
+    "decision": "exclude",
+    "reason": "Employer name is identifier-like and unsuitable without privacy/cardinality treatment."
+  },
+  {
+    "source_table": "tax_registry_c_1",
+    "source_column": "employername_160M",
+    "decision": "exclude",
+    "reason": "Employer name is identifier-like and unsuitable without privacy/cardinality treatment."
+  }
+]

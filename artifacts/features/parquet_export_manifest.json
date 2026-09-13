@@ -1,0 +1,156 @@
+[
+  {
+    "family": "base labels",
+    "row_count": 1000,
+    "column_count": 5,
+    "output_path": "data/processed/feature_families/base_labels_smoke.parquet",
+    "file_size_bytes": 4873,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:16.195370+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "credit bureau histories",
+    "row_count": 1000,
+    "column_count": 501,
+    "output_path": "data/processed/feature_families/credit_bureau_histories_smoke.parquet",
+    "file_size_bytes": 186067,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:17.234614+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "debit/deposit/other histories",
+    "row_count": 1000,
+    "column_count": 54,
+    "output_path": "data/processed/feature_families/debit_deposit_other_histories_smoke.parquet",
+    "file_size_bytes": 23676,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:17.795913+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "person/participant histories",
+    "row_count": 1000,
+    "column_count": 47,
+    "output_path": "data/processed/feature_families/person_participant_histories_smoke.parquet",
+    "file_size_bytes": 17660,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:18.570331+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "previous applications",
+    "row_count": 1000,
+    "column_count": 116,
+    "output_path": "data/processed/feature_families/previous_applications_smoke.parquet",
+    "file_size_bytes": 39277,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:19.210108+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "static applicant/bureau snapshots",
+    "row_count": 1000,
+    "column_count": 201,
+    "output_path": "data/processed/feature_families/static_applicant_bureau_smoke.parquet",
+    "file_size_bytes": 67372,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:19.911304+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "tax registry histories",
+    "row_count": 1000,
+    "column_count": 23,
+    "output_path": "data/processed/feature_families/tax_registry_histories_smoke.parquet",
+    "file_size_bytes": 10402,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T19:59:20.804126+00:00",
+    "message": null,
+    "smoke": true
+  },
+  {
+    "family": "base labels",
+    "row_count": 1526659,
+    "column_count": 5,
+    "output_path": "data/processed/feature_families/base_labels.parquet",
+    "file_size_bytes": 4742079,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T20:04:54.219324+00:00",
+    "message": null,
+    "smoke": false
+  },
+  {
+    "family": "credit bureau histories",
+    "row_count": 1526659,
+    "column_count": 501,
+    "output_path": "data/processed/feature_families/credit_bureau_histories.parquet",
+    "file_size_bytes": 659977005,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T20:44:06.476821+00:00",
+    "message": null,
+    "smoke": false
+  },
+  {
+    "family": "debit/deposit/other histories",
+    "row_count": 1526659,
+    "column_count": 54,
+    "output_path": "data/processed/feature_families/debit_deposit_other_histories.parquet",
+    "file_size_bytes": 13167504,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T21:12:49.883922+00:00",
+    "message": null,
+    "smoke": false
+  },
+  {
+    "family": "person/participant histories",
+    "row_count": 1526659,
+    "column_count": 47,
+    "output_path": "data/processed/feature_families/person_participant_histories.parquet",
+    "file_size_bytes": 32532166,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T21:14:51.086461+00:00",
+    "message": null,
+    "smoke": false
+  },
+  {
+    "family": "previous applications",
+    "row_count": 1526659,
+    "column_count": 116,
+    "output_path": "data/processed/feature_families/previous_applications.parquet",
+    "file_size_bytes": 213969075,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T21:19:52.343063+00:00",
+    "message": null,
+    "smoke": false
+  },
+  {
+    "family": "static applicant/bureau snapshots",
+    "row_count": 1526659,
+    "column_count": 201,
+    "output_path": "data/processed/feature_families/static_applicant_bureau.parquet",
+    "file_size_bytes": 187728403,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T21:23:44.656530+00:00",
+    "message": null,
+    "smoke": false
+  },
+  {
+    "family": "tax registry histories",
+    "row_count": 1526659,
+    "column_count": 23,
+    "output_path": "data/processed/feature_families/tax_registry_histories.parquet",
+    "file_size_bytes": 38993674,
+    "completion_status": "success",
+    "timestamp": "2026-09-13T21:24:25.096343+00:00",
+    "message": null,
+    "smoke": false
+  }
+]
