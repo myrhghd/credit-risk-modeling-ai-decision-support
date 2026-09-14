@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-14T02:41:44.846080+00:00",
+  "predictor_counts": {
+    "total": 936,
+    "numeric": 886,
+    "categorical": 47,
+    "boolean": 3
+  },
+  "train_row_limit": 200000,
+  "eval_row_limit": 100000,
+  "batch_size": 100000,
+  "preprocessing_stats_seconds": 24.59967393381521,
+  "representative_batch_timing": {
+    "rows": 100000,
+    "parquet_arrow_scan_filter_seconds": 6.706772573292255,
+    "numeric_extraction_seconds": 2.1557390419766307,
+    "numeric_impute_standardize_seconds": 4.148893543053418,
+    "categorical_extraction_hashing_seconds": 6.534390014130622,
+    "boolean_extraction_seconds": 0.06389637477695942,
+    "sparse_assembly_seconds": 3.4937209519557655,
+    "partial_fit_seconds": 0.43379534827545285,
+    "predict_proba_seconds": 0.09161778725683689,
+    "old_pydict_transform_seconds": 38.0271845520474
+  },
+  "benchmark_training_rows": 200000,
+  "benchmark_training_batches": 2,
+  "benchmark_training_seconds": 48.70875156996772,
+  "benchmark_rows_per_second": 4106.038310440165,
+  "validation_eval_seconds": 34.59398109605536,
+  "validation_auc_after_one_epoch": 0.568312924477161,
+  "full_train_rows": 1065921,
+  "estimated_one_full_epoch_seconds": 259.5984059110578,
+  "estimated_three_full_epoch_seconds": 778.7952177331733,
+  "go_no_go": "READY FOR FULL RUN"
+}

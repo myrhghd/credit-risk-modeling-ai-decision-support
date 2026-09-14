@@ -48,6 +48,27 @@ artifacts/*
 !artifacts/source_catalog/
 !artifacts/source_catalog/feature_catalog.json
 !artifacts/source_catalog/table_family_summary.md
+!artifacts/modeling/
+!artifacts/modeling/temporal_split_config.json
+!artifacts/models/
+!artifacts/models/logistic_baseline/
+!artifacts/models/logistic_baseline/model_metadata.json
+!artifacts/models/logistic_baseline/metrics.json
+!artifacts/models/logistic_baseline/validation_deciles.json
+!artifacts/models/logistic_baseline/test_deciles.json
+!artifacts/models/logistic_baseline_full_unweighted/
+!artifacts/models/logistic_baseline_full_unweighted/model_metadata.json
+!artifacts/models/logistic_baseline_full_unweighted/metrics.json
+!artifacts/models/logistic_baseline_full_unweighted/validation_deciles.json
+!artifacts/models/logistic_baseline_full_unweighted/test_deciles.json
+!artifacts/models/logistic_baseline_full_positive_weight_3/
+!artifacts/models/logistic_baseline_full_positive_weight_3/model_metadata.json
+!artifacts/models/logistic_baseline_full_positive_weight_3/metrics.json
+!artifacts/models/logistic_baseline_full_positive_weight_3/validation_deciles.json
+!artifacts/models/logistic_baseline_full_positive_weight_3/test_deciles.json
+!artifacts/models/logistic_class_weight_diagnostic/
+!artifacts/models/logistic_class_weight_diagnostic/diagnostic_summary.json
+!artifacts/models/logistic_throughput_benchmark.json
 mlruns/
 mlartifacts/
 

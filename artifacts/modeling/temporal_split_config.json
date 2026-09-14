@@ -1,0 +1,996 @@
+{
+  "created_at": "2026-09-13T22:12:15.395201+00:00",
+  "modeling_path": "data/processed/modeling_features.parquet",
+  "split_labels_path": "data/processed/modeling_split_labels.parquet",
+  "target_split_pct": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "week_boundaries": {
+    "train_start_week": 0,
+    "train_end_week": 51,
+    "validation_start_week": 52,
+    "validation_end_week": 65,
+    "test_start_week": 66,
+    "test_end_week": 91
+  },
+  "date_decision_min": "2019-01-01",
+  "date_decision_max": "2020-10-05",
+  "week_num_min": 0,
+  "week_num_max": 91,
+  "weekly_profile": [
+    {
+      "WEEK_NUM": 0,
+      "row_count": 16735,
+      "positive_cases": 400,
+      "default_rate": 0.023902001792650136,
+      "min_date_decision": "2019-01-01",
+      "max_date_decision": "2019-01-07",
+      "cumulative_row_count": 16735,
+      "cumulative_pct": 0.010961845441581913
+    },
+    {
+      "WEEK_NUM": 1,
+      "row_count": 18841,
+      "positive_cases": 472,
+      "default_rate": 0.025051748845602673,
+      "min_date_decision": "2019-01-08",
+      "max_date_decision": "2019-01-14",
+      "cumulative_row_count": 35576,
+      "cumulative_pct": 0.02330317379323084
+    },
+    {
+      "WEEK_NUM": 2,
+      "row_count": 17476,
+      "positive_cases": 465,
+      "default_rate": 0.026607919432364385,
+      "min_date_decision": "2019-01-15",
+      "max_date_decision": "2019-01-21",
+      "cumulative_row_count": 53052,
+      "cumulative_pct": 0.03475039285131781
+    },
+    {
+      "WEEK_NUM": 3,
+      "row_count": 16108,
+      "positive_cases": 419,
+      "default_rate": 0.026011919543084183,
+      "min_date_decision": "2019-01-22",
+      "max_date_decision": "2019-01-28",
+      "cumulative_row_count": 69160,
+      "cumulative_pct": 0.045301537540472364
+    },
+    {
+      "WEEK_NUM": 4,
+      "row_count": 14309,
+      "positive_cases": 404,
+      "default_rate": 0.028233978614857783,
+      "min_date_decision": "2019-01-29",
+      "max_date_decision": "2019-02-04",
+      "cumulative_row_count": 83469,
+      "cumulative_pct": 0.05467429203247091
+    },
+    {
+      "WEEK_NUM": 5,
+      "row_count": 15335,
+      "positive_cases": 407,
+      "default_rate": 0.026540593413759375,
+      "min_date_decision": "2019-02-05",
+      "max_date_decision": "2019-02-11",
+      "cumulative_row_count": 98804,
+      "cumulative_pct": 0.06471910230116876
+    },
+    {
+      "WEEK_NUM": 6,
+      "row_count": 16385,
+      "positive_cases": 445,
+      "default_rate": 0.027158986878242294,
+      "min_date_decision": "2019-02-12",
+      "max_date_decision": "2019-02-18",
+      "cumulative_row_count": 115189,
+      "cumulative_pct": 0.07545168894952967
+    },
+    {
+      "WEEK_NUM": 7,
+      "row_count": 17238,
+      "positive_cases": 462,
+      "default_rate": 0.026801253045596937,
+      "min_date_decision": "2019-02-19",
+      "max_date_decision": "2019-02-25",
+      "cumulative_row_count": 132427,
+      "cumulative_pct": 0.08674301202822635
+    },
+    {
+      "WEEK_NUM": 8,
+      "row_count": 13076,
+      "positive_cases": 424,
+      "default_rate": 0.03242581829305598,
+      "min_date_decision": "2019-02-26",
+      "max_date_decision": "2019-03-04",
+      "cumulative_row_count": 145503,
+      "cumulative_pct": 0.09530812054296343
+    },
+    {
+      "WEEK_NUM": 9,
+      "row_count": 14716,
+      "positive_cases": 390,
+      "default_rate": 0.026501766784452298,
+      "min_date_decision": "2019-03-05",
+      "max_date_decision": "2019-03-11",
+      "cumulative_row_count": 160219,
+      "cumulative_pct": 0.10494747026022183
+    },
+    {
+      "WEEK_NUM": 10,
+      "row_count": 16650,
+      "positive_cases": 471,
+      "default_rate": 0.028288288288288287,
+      "min_date_decision": "2019-03-12",
+      "max_date_decision": "2019-03-18",
+      "cumulative_row_count": 176869,
+      "cumulative_pct": 0.11585363856630722
+    },
+    {
+      "WEEK_NUM": 11,
+      "row_count": 16101,
+      "positive_cases": 367,
+      "default_rate": 0.022793615303397304,
+      "min_date_decision": "2019-03-19",
+      "max_date_decision": "2019-03-25",
+      "cumulative_row_count": 192970,
+      "cumulative_pct": 0.12640019807959735
+    },
+    {
+      "WEEK_NUM": 12,
+      "row_count": 17105,
+      "positive_cases": 479,
+      "default_rate": 0.02800350774627302,
+      "min_date_decision": "2019-03-26",
+      "max_date_decision": "2019-04-01",
+      "cumulative_row_count": 210075,
+      "cumulative_pct": 0.13760440281687006
+    },
+    {
+      "WEEK_NUM": 13,
+      "row_count": 15791,
+      "positive_cases": 410,
+      "default_rate": 0.025964156798176177,
+      "min_date_decision": "2019-04-02",
+      "max_date_decision": "2019-04-08",
+      "cumulative_row_count": 225866,
+      "cumulative_pct": 0.1479479045418787
+    },
+    {
+      "WEEK_NUM": 14,
+      "row_count": 17534,
+      "positive_cases": 525,
+      "default_rate": 0.029941827306946504,
+      "min_date_decision": "2019-04-09",
+      "max_date_decision": "2019-04-15",
+      "cumulative_row_count": 243400,
+      "cumulative_pct": 0.159433115057128
+    },
+    {
+      "WEEK_NUM": 15,
+      "row_count": 17713,
+      "positive_cases": 502,
+      "default_rate": 0.028340766668548522,
+      "min_date_decision": "2019-04-16",
+      "max_date_decision": "2019-04-22",
+      "cumulative_row_count": 261113,
+      "cumulative_pct": 0.1710355750694818
+    },
+    {
+      "WEEK_NUM": 16,
+      "row_count": 16598,
+      "positive_cases": 535,
+      "default_rate": 0.03223279913242559,
+      "min_date_decision": "2019-04-23",
+      "max_date_decision": "2019-04-29",
+      "cumulative_row_count": 277711,
+      "cumulative_pct": 0.18190768206914576
+    },
+    {
+      "WEEK_NUM": 17,
+      "row_count": 12146,
+      "positive_cases": 440,
+      "default_rate": 0.036225917997694715,
+      "min_date_decision": "2019-04-30",
+      "max_date_decision": "2019-05-06",
+      "cumulative_row_count": 289857,
+      "cumulative_pct": 0.18986361721903844
+    },
+    {
+      "WEEK_NUM": 18,
+      "row_count": 11729,
+      "positive_cases": 420,
+      "default_rate": 0.03580867934180237,
+      "min_date_decision": "2019-05-07",
+      "max_date_decision": "2019-05-13",
+      "cumulative_row_count": 301586,
+      "cumulative_pct": 0.19754640689243635
+    },
+    {
+      "WEEK_NUM": 19,
+      "row_count": 17194,
+      "positive_cases": 529,
+      "default_rate": 0.030766546469698734,
+      "min_date_decision": "2019-05-14",
+      "max_date_decision": "2019-05-20",
+      "cumulative_row_count": 318780,
+      "cumulative_pct": 0.20880890886569956
+    },
+    {
+      "WEEK_NUM": 20,
+      "row_count": 16366,
+      "positive_cases": 501,
+      "default_rate": 0.030612244897959183,
+      "min_date_decision": "2019-05-21",
+      "max_date_decision": "2019-05-27",
+      "cumulative_row_count": 335146,
+      "cumulative_pct": 0.21952905003671416
+    },
+    {
+      "WEEK_NUM": 21,
+      "row_count": 16962,
+      "positive_cases": 543,
+      "default_rate": 0.0320127343473647,
+      "min_date_decision": "2019-05-28",
+      "max_date_decision": "2019-06-03",
+      "cumulative_row_count": 352108,
+      "cumulative_pct": 0.230639586181328
+    },
+    {
+      "WEEK_NUM": 22,
+      "row_count": 23261,
+      "positive_cases": 559,
+      "default_rate": 0.024031640944069472,
+      "min_date_decision": "2019-06-04",
+      "max_date_decision": "2019-06-10",
+      "cumulative_row_count": 375369,
+      "cumulative_pct": 0.2458761255787966
+    },
+    {
+      "WEEK_NUM": 23,
+      "row_count": 26734,
+      "positive_cases": 633,
+      "default_rate": 0.02367771377272387,
+      "min_date_decision": "2019-06-11",
+      "max_date_decision": "2019-06-17",
+      "cumulative_row_count": 402103,
+      "cumulative_pct": 0.2633875672301411
+    },
+    {
+      "WEEK_NUM": 24,
+      "row_count": 19503,
+      "positive_cases": 535,
+      "default_rate": 0.02743167717787007,
+      "min_date_decision": "2019-06-18",
+      "max_date_decision": "2019-06-24",
+      "cumulative_row_count": 421606,
+      "cumulative_pct": 0.2761625222135395
+    },
+    {
+      "WEEK_NUM": 25,
+      "row_count": 20744,
+      "positive_cases": 588,
+      "default_rate": 0.028345545699961436,
+      "min_date_decision": "2019-06-25",
+      "max_date_decision": "2019-07-01",
+      "cumulative_row_count": 442350,
+      "cumulative_pct": 0.2897503633751873
+    },
+    {
+      "WEEK_NUM": 26,
+      "row_count": 20621,
+      "positive_cases": 572,
+      "default_rate": 0.027738712962513942,
+      "min_date_decision": "2019-07-02",
+      "max_date_decision": "2019-07-08",
+      "cumulative_row_count": 462971,
+      "cumulative_pct": 0.30325763644664594
+    },
+    {
+      "WEEK_NUM": 27,
+      "row_count": 22450,
+      "positive_cases": 630,
+      "default_rate": 0.028062360801781736,
+      "min_date_decision": "2019-07-09",
+      "max_date_decision": "2019-07-15",
+      "cumulative_row_count": 485421,
+      "cumulative_pct": 0.3179629504689653
+    },
+    {
+      "WEEK_NUM": 28,
+      "row_count": 22013,
+      "positive_cases": 591,
+      "default_rate": 0.026847771771226093,
+      "min_date_decision": "2019-07-16",
+      "max_date_decision": "2019-07-22",
+      "cumulative_row_count": 507434,
+      "cumulative_pct": 0.3323820185123201
+    },
+    {
+      "WEEK_NUM": 29,
+      "row_count": 22841,
+      "positive_cases": 613,
+      "default_rate": 0.026837704128540783,
+      "min_date_decision": "2019-07-23",
+      "max_date_decision": "2019-07-29",
+      "cumulative_row_count": 530275,
+      "cumulative_pct": 0.34734344735792344
+    },
+    {
+      "WEEK_NUM": 30,
+      "row_count": 20688,
+      "positive_cases": 602,
+      "default_rate": 0.029098994586233565,
+      "min_date_decision": "2019-07-30",
+      "max_date_decision": "2019-08-05",
+      "cumulative_row_count": 550963,
+      "cumulative_pct": 0.3608946071126558
+    },
+    {
+      "WEEK_NUM": 31,
+      "row_count": 21275,
+      "positive_cases": 544,
+      "default_rate": 0.025569917743830786,
+      "min_date_decision": "2019-08-06",
+      "max_date_decision": "2019-08-12",
+      "cumulative_row_count": 572238,
+      "cumulative_pct": 0.374830266614876
+    },
+    {
+      "WEEK_NUM": 32,
+      "row_count": 23889,
+      "positive_cases": 572,
+      "default_rate": 0.023944074678722425,
+      "min_date_decision": "2019-08-13",
+      "max_date_decision": "2019-08-19",
+      "cumulative_row_count": 596127,
+      "cumulative_pct": 0.3904781617898955
+    },
+    {
+      "WEEK_NUM": 33,
+      "row_count": 21525,
+      "positive_cases": 632,
+      "default_rate": 0.029361207897793264,
+      "min_date_decision": "2019-08-20",
+      "max_date_decision": "2019-08-26",
+      "cumulative_row_count": 617652,
+      "cumulative_pct": 0.40457757757298785
+    },
+    {
+      "WEEK_NUM": 34,
+      "row_count": 23477,
+      "positive_cases": 638,
+      "default_rate": 0.027175533500873195,
+      "min_date_decision": "2019-08-27",
+      "max_date_decision": "2019-09-02",
+      "cumulative_row_count": 641129,
+      "cumulative_pct": 0.41995560239713
+    },
+    {
+      "WEEK_NUM": 35,
+      "row_count": 24137,
+      "positive_cases": 677,
+      "default_rate": 0.028048224717239095,
+      "min_date_decision": "2019-09-03",
+      "max_date_decision": "2019-09-09",
+      "cumulative_row_count": 665266,
+      "cumulative_pct": 0.43576594380277456
+    },
+    {
+      "WEEK_NUM": 36,
+      "row_count": 23812,
+      "positive_cases": 810,
+      "default_rate": 0.03401646228792206,
+      "min_date_decision": "2019-09-10",
+      "max_date_decision": "2019-09-16",
+      "cumulative_row_count": 689078,
+      "cumulative_pct": 0.4513634020432854
+    },
+    {
+      "WEEK_NUM": 37,
+      "row_count": 22255,
+      "positive_cases": 834,
+      "default_rate": 0.0374747247809481,
+      "min_date_decision": "2019-09-17",
+      "max_date_decision": "2019-09-23",
+      "cumulative_row_count": 711333,
+      "cumulative_pct": 0.46594098616652446
+    },
+    {
+      "WEEK_NUM": 38,
+      "row_count": 22424,
+      "positive_cases": 861,
+      "default_rate": 0.03839636104174099,
+      "min_date_decision": "2019-09-24",
+      "max_date_decision": "2019-09-30",
+      "cumulative_row_count": 733757,
+      "cumulative_pct": 0.48062926953563306
+    },
+    {
+      "WEEK_NUM": 39,
+      "row_count": 21039,
+      "positive_cases": 820,
+      "default_rate": 0.03897523646561148,
+      "min_date_decision": "2019-10-01",
+      "max_date_decision": "2019-10-07",
+      "cumulative_row_count": 754796,
+      "cumulative_pct": 0.49441034310870996
+    },
+    {
+      "WEEK_NUM": 40,
+      "row_count": 23907,
+      "positive_cases": 833,
+      "default_rate": 0.03484335131969716,
+      "min_date_decision": "2019-10-08",
+      "max_date_decision": "2019-10-14",
+      "cumulative_row_count": 778703,
+      "cumulative_pct": 0.5100700287359522
+    },
+    {
+      "WEEK_NUM": 41,
+      "row_count": 21125,
+      "positive_cases": 843,
+      "default_rate": 0.039905325443786985,
+      "min_date_decision": "2019-10-15",
+      "max_date_decision": "2019-10-21",
+      "cumulative_row_count": 799828,
+      "cumulative_pct": 0.5239074344696492
+    },
+    {
+      "WEEK_NUM": 42,
+      "row_count": 20643,
+      "positive_cases": 801,
+      "default_rate": 0.03880249963668071,
+      "min_date_decision": "2019-10-22",
+      "max_date_decision": "2019-10-28",
+      "cumulative_row_count": 820471,
+      "cumulative_pct": 0.5374291180938245
+    },
+    {
+      "WEEK_NUM": 43,
+      "row_count": 21029,
+      "positive_cases": 841,
+      "default_rate": 0.03999239145941319,
+      "min_date_decision": "2019-10-29",
+      "max_date_decision": "2019-11-04",
+      "cumulative_row_count": 841500,
+      "cumulative_pct": 0.5512036414156665
+    },
+    {
+      "WEEK_NUM": 44,
+      "row_count": 25887,
+      "positive_cases": 938,
+      "default_rate": 0.036234403368486115,
+      "min_date_decision": "2019-11-05",
+      "max_date_decision": "2019-11-11",
+      "cumulative_row_count": 867387,
+      "cumulative_pct": 0.5681602767874162
+    },
+    {
+      "WEEK_NUM": 45,
+      "row_count": 28947,
+      "positive_cases": 1001,
+      "default_rate": 0.03458044011469237,
+      "min_date_decision": "2019-11-12",
+      "max_date_decision": "2019-11-18",
+      "cumulative_row_count": 896334,
+      "cumulative_pct": 0.5871212890370411
+    },
+    {
+      "WEEK_NUM": 46,
+      "row_count": 22299,
+      "positive_cases": 915,
+      "default_rate": 0.041033230189694604,
+      "min_date_decision": "2019-11-19",
+      "max_date_decision": "2019-11-25",
+      "cumulative_row_count": 918633,
+      "cumulative_pct": 0.6017276942657136
+    },
+    {
+      "WEEK_NUM": 47,
+      "row_count": 31888,
+      "positive_cases": 936,
+      "default_rate": 0.029352734570998493,
+      "min_date_decision": "2019-11-26",
+      "max_date_decision": "2019-12-02",
+      "cumulative_row_count": 950521,
+      "cumulative_pct": 0.6226151354035184
+    },
+    {
+      "WEEK_NUM": 48,
+      "row_count": 22298,
+      "positive_cases": 890,
+      "default_rate": 0.03991389362274644,
+      "min_date_decision": "2019-12-03",
+      "max_date_decision": "2019-12-09",
+      "cumulative_row_count": 972819,
+      "cumulative_pct": 0.6372208856070675
+    },
+    {
+      "WEEK_NUM": 49,
+      "row_count": 30938,
+      "positive_cases": 1014,
+      "default_rate": 0.03277522787510505,
+      "min_date_decision": "2019-12-10",
+      "max_date_decision": "2019-12-16",
+      "cumulative_row_count": 1003757,
+      "cumulative_pct": 0.6574860528775581
+    },
+    {
+      "WEEK_NUM": 50,
+      "row_count": 26244,
+      "positive_cases": 1060,
+      "default_rate": 0.04039018442310623,
+      "min_date_decision": "2019-12-17",
+      "max_date_decision": "2019-12-23",
+      "cumulative_row_count": 1030001,
+      "cumulative_pct": 0.6746765322183933
+    },
+    {
+      "WEEK_NUM": 51,
+      "row_count": 35920,
+      "positive_cases": 1136,
+      "default_rate": 0.03162583518930958,
+      "min_date_decision": "2019-12-24",
+      "max_date_decision": "2019-12-30",
+      "cumulative_row_count": 1065921,
+      "cumulative_pct": 0.6982050346541042
+    },
+    {
+      "WEEK_NUM": 52,
+      "row_count": 22915,
+      "positive_cases": 689,
+      "default_rate": 0.030067641283002402,
+      "min_date_decision": "2019-12-31",
+      "max_date_decision": "2020-01-06",
+      "cumulative_row_count": 1088836,
+      "cumulative_pct": 0.7132149353588457
+    },
+    {
+      "WEEK_NUM": 53,
+      "row_count": 22194,
+      "positive_cases": 823,
+      "default_rate": 0.03708209425970983,
+      "min_date_decision": "2020-01-07",
+      "max_date_decision": "2020-01-13",
+      "cumulative_row_count": 1111030,
+      "cumulative_pct": 0.7277525629495519
+    },
+    {
+      "WEEK_NUM": 54,
+      "row_count": 18740,
+      "positive_cases": 869,
+      "default_rate": 0.04637139807897545,
+      "min_date_decision": "2020-01-14",
+      "max_date_decision": "2020-01-20",
+      "cumulative_row_count": 1129770,
+      "cumulative_pct": 0.7400277337637285
+    },
+    {
+      "WEEK_NUM": 55,
+      "row_count": 18538,
+      "positive_cases": 789,
+      "default_rate": 0.042561225590678604,
+      "min_date_decision": "2020-01-21",
+      "max_date_decision": "2020-01-27",
+      "cumulative_row_count": 1148308,
+      "cumulative_pct": 0.7521705895029605
+    },
+    {
+      "WEEK_NUM": 56,
+      "row_count": 17072,
+      "positive_cases": 811,
+      "default_rate": 0.04750468603561387,
+      "min_date_decision": "2020-01-28",
+      "max_date_decision": "2020-02-03",
+      "cumulative_row_count": 1165380,
+      "cumulative_pct": 0.763353178411158
+    },
+    {
+      "WEEK_NUM": 57,
+      "row_count": 18221,
+      "positive_cases": 838,
+      "default_rate": 0.045990889632841224,
+      "min_date_decision": "2020-02-04",
+      "max_date_decision": "2020-02-10",
+      "cumulative_row_count": 1183601,
+      "cumulative_pct": 0.7752883911862439
+    },
+    {
+      "WEEK_NUM": 58,
+      "row_count": 17819,
+      "positive_cases": 867,
+      "default_rate": 0.04865592906448173,
+      "min_date_decision": "2020-02-11",
+      "max_date_decision": "2020-02-17",
+      "cumulative_row_count": 1201420,
+      "cumulative_pct": 0.7869602838616876
+    },
+    {
+      "WEEK_NUM": 59,
+      "row_count": 17729,
+      "positive_cases": 889,
+      "default_rate": 0.05014383213943257,
+      "min_date_decision": "2020-02-18",
+      "max_date_decision": "2020-02-24",
+      "cumulative_row_count": 1219149,
+      "cumulative_pct": 0.7985732242760172
+    },
+    {
+      "WEEK_NUM": 60,
+      "row_count": 15864,
+      "positive_cases": 729,
+      "default_rate": 0.04595310136157337,
+      "min_date_decision": "2020-02-25",
+      "max_date_decision": "2020-03-02",
+      "cumulative_row_count": 1235013,
+      "cumulative_pct": 0.8089645428350405
+    },
+    {
+      "WEEK_NUM": 61,
+      "row_count": 15568,
+      "positive_cases": 807,
+      "default_rate": 0.05183710174717369,
+      "min_date_decision": "2020-03-03",
+      "max_date_decision": "2020-03-09",
+      "cumulative_row_count": 1250581,
+      "cumulative_pct": 0.8191619739575112
+    },
+    {
+      "WEEK_NUM": 62,
+      "row_count": 17164,
+      "positive_cases": 895,
+      "default_rate": 0.05214402237240737,
+      "min_date_decision": "2020-03-10",
+      "max_date_decision": "2020-03-16",
+      "cumulative_row_count": 1267745,
+      "cumulative_pct": 0.8304048251770697
+    },
+    {
+      "WEEK_NUM": 63,
+      "row_count": 14337,
+      "positive_cases": 589,
+      "default_rate": 0.04108251377554579,
+      "min_date_decision": "2020-03-17",
+      "max_date_decision": "2020-03-23",
+      "cumulative_row_count": 1282082,
+      "cumulative_pct": 0.8397959203725259
+    },
+    {
+      "WEEK_NUM": 64,
+      "row_count": 10268,
+      "positive_cases": 322,
+      "default_rate": 0.03135956369302688,
+      "min_date_decision": "2020-03-24",
+      "max_date_decision": "2020-03-30",
+      "cumulative_row_count": 1292350,
+      "cumulative_pct": 0.8465217183405069
+    },
+    {
+      "WEEK_NUM": 65,
+      "row_count": 4258,
+      "positive_cases": 96,
+      "default_rate": 0.02254579614842649,
+      "min_date_decision": "2020-03-31",
+      "max_date_decision": "2020-04-06",
+      "cumulative_row_count": 1296608,
+      "cumulative_pct": 0.8493108153163215
+    },
+    {
+      "WEEK_NUM": 66,
+      "row_count": 2278,
+      "positive_cases": 52,
+      "default_rate": 0.0228270412642669,
+      "min_date_decision": "2020-04-07",
+      "max_date_decision": "2020-04-13",
+      "cumulative_row_count": 1298886,
+      "cumulative_pct": 0.8508029625476285
+    },
+    {
+      "WEEK_NUM": 67,
+      "row_count": 1434,
+      "positive_cases": 30,
+      "default_rate": 0.02092050209205021,
+      "min_date_decision": "2020-04-14",
+      "max_date_decision": "2020-04-20",
+      "cumulative_row_count": 1300320,
+      "cumulative_pct": 0.8517422685747112
+    },
+    {
+      "WEEK_NUM": 68,
+      "row_count": 825,
+      "positive_cases": 21,
+      "default_rate": 0.025454545454545455,
+      "min_date_decision": "2020-04-21",
+      "max_date_decision": "2020-04-27",
+      "cumulative_row_count": 1301145,
+      "cumulative_pct": 0.8522826643015893
+    },
+    {
+      "WEEK_NUM": 69,
+      "row_count": 1582,
+      "positive_cases": 35,
+      "default_rate": 0.022123893805309734,
+      "min_date_decision": "2020-04-28",
+      "max_date_decision": "2020-05-04",
+      "cumulative_row_count": 1302727,
+      "cumulative_pct": 0.8533189140469483
+    },
+    {
+      "WEEK_NUM": 70,
+      "row_count": 3808,
+      "positive_cases": 82,
+      "default_rate": 0.02153361344537815,
+      "min_date_decision": "2020-05-05",
+      "max_date_decision": "2020-05-11",
+      "cumulative_row_count": 1306535,
+      "cumulative_pct": 0.855813249717193
+    },
+    {
+      "WEEK_NUM": 71,
+      "row_count": 7921,
+      "positive_cases": 176,
+      "default_rate": 0.02221941674031057,
+      "min_date_decision": "2020-05-12",
+      "max_date_decision": "2020-05-18",
+      "cumulative_row_count": 1314456,
+      "cumulative_pct": 0.8610017037203462
+    },
+    {
+      "WEEK_NUM": 72,
+      "row_count": 8858,
+      "positive_cases": 207,
+      "default_rate": 0.02336870625423346,
+      "min_date_decision": "2020-05-19",
+      "max_date_decision": "2020-05-25",
+      "cumulative_row_count": 1323314,
+      "cumulative_pct": 0.8668039162642084
+    },
+    {
+      "WEEK_NUM": 73,
+      "row_count": 8687,
+      "positive_cases": 189,
+      "default_rate": 0.021756647864625302,
+      "min_date_decision": "2020-05-26",
+      "max_date_decision": "2020-06-01",
+      "cumulative_row_count": 1332001,
+      "cumulative_pct": 0.8724941195119539
+    },
+    {
+      "WEEK_NUM": 74,
+      "row_count": 11280,
+      "positive_cases": 303,
+      "default_rate": 0.026861702127659575,
+      "min_date_decision": "2020-06-02",
+      "max_date_decision": "2020-06-08",
+      "cumulative_row_count": 1343281,
+      "cumulative_pct": 0.8798828029049055
+    },
+    {
+      "WEEK_NUM": 75,
+      "row_count": 13656,
+      "positive_cases": 290,
+      "default_rate": 0.02123608670181605,
+      "min_date_decision": "2020-06-09",
+      "max_date_decision": "2020-06-15",
+      "cumulative_row_count": 1356937,
+      "cumulative_pct": 0.888827825991266
+    },
+    {
+      "WEEK_NUM": 76,
+      "row_count": 10261,
+      "positive_cases": 255,
+      "default_rate": 0.024851379007893967,
+      "min_date_decision": "2020-06-16",
+      "max_date_decision": "2020-06-22",
+      "cumulative_row_count": 1367198,
+      "cumulative_pct": 0.8955490387833825
+    },
+    {
+      "WEEK_NUM": 77,
+      "row_count": 7754,
+      "positive_cases": 197,
+      "default_rate": 0.025406241939644053,
+      "min_date_decision": "2020-06-23",
+      "max_date_decision": "2020-06-29",
+      "cumulative_row_count": 1374952,
+      "cumulative_pct": 0.9006281035909133
+    },
+    {
+      "WEEK_NUM": 78,
+      "row_count": 8755,
+      "positive_cases": 195,
+      "default_rate": 0.02227298686464877,
+      "min_date_decision": "2020-06-30",
+      "max_date_decision": "2020-07-06",
+      "cumulative_row_count": 1383707,
+      "cumulative_pct": 0.9063628485470561
+    },
+    {
+      "WEEK_NUM": 79,
+      "row_count": 5158,
+      "positive_cases": 112,
+      "default_rate": 0.021713842574641335,
+      "min_date_decision": "2020-07-07",
+      "max_date_decision": "2020-07-13",
+      "cumulative_row_count": 1388865,
+      "cumulative_pct": 0.9097414681340104
+    },
+    {
+      "WEEK_NUM": 80,
+      "row_count": 6246,
+      "positive_cases": 120,
+      "default_rate": 0.01921229586935639,
+      "min_date_decision": "2020-07-14",
+      "max_date_decision": "2020-07-20",
+      "cumulative_row_count": 1395111,
+      "cumulative_pct": 0.9138327550553201
+    },
+    {
+      "WEEK_NUM": 81,
+      "row_count": 6743,
+      "positive_cases": 188,
+      "default_rate": 0.02788076523802462,
+      "min_date_decision": "2020-07-21",
+      "max_date_decision": "2020-07-27",
+      "cumulative_row_count": 1401854,
+      "cumulative_pct": 0.918249589463004
+    },
+    {
+      "WEEK_NUM": 82,
+      "row_count": 5423,
+      "positive_cases": 122,
+      "default_rate": 0.022496773003872397,
+      "min_date_decision": "2020-07-28",
+      "max_date_decision": "2020-08-03",
+      "cumulative_row_count": 1407277,
+      "cumulative_pct": 0.9218017907076826
+    },
+    {
+      "WEEK_NUM": 83,
+      "row_count": 7295,
+      "positive_cases": 156,
+      "default_rate": 0.021384509938313912,
+      "min_date_decision": "2020-08-04",
+      "max_date_decision": "2020-08-10",
+      "cumulative_row_count": 1414572,
+      "cumulative_pct": 0.926580198983532
+    },
+    {
+      "WEEK_NUM": 84,
+      "row_count": 9721,
+      "positive_cases": 216,
+      "default_rate": 0.022219936220553443,
+      "min_date_decision": "2020-08-11",
+      "max_date_decision": "2020-08-17",
+      "cumulative_row_count": 1424293,
+      "cumulative_pct": 0.9329476982089648
+    },
+    {
+      "WEEK_NUM": 85,
+      "row_count": 16239,
+      "positive_cases": 308,
+      "default_rate": 0.018966685140710635,
+      "min_date_decision": "2020-08-18",
+      "max_date_decision": "2020-08-24",
+      "cumulative_row_count": 1440532,
+      "cumulative_pct": 0.9435846511892964
+    },
+    {
+      "WEEK_NUM": 86,
+      "row_count": 15630,
+      "positive_cases": 277,
+      "default_rate": 0.017722328854766475,
+      "min_date_decision": "2020-08-25",
+      "max_date_decision": "2020-08-31",
+      "cumulative_row_count": 1456162,
+      "cumulative_pct": 0.9538226938694234
+    },
+    {
+      "WEEK_NUM": 87,
+      "row_count": 17886,
+      "positive_cases": 329,
+      "default_rate": 0.018394274851839428,
+      "min_date_decision": "2020-09-01",
+      "max_date_decision": "2020-09-07",
+      "cumulative_row_count": 1474048,
+      "cumulative_pct": 0.9655384732281407
+    },
+    {
+      "WEEK_NUM": 88,
+      "row_count": 14234,
+      "positive_cases": 265,
+      "default_rate": 0.018617394969790643,
+      "min_date_decision": "2020-09-08",
+      "max_date_decision": "2020-09-14",
+      "cumulative_row_count": 1488282,
+      "cumulative_pct": 0.9748621008358777
+    },
+    {
+      "WEEK_NUM": 89,
+      "row_count": 13600,
+      "positive_cases": 309,
+      "default_rate": 0.022720588235294117,
+      "min_date_decision": "2020-09-15",
+      "max_date_decision": "2020-09-21",
+      "cumulative_row_count": 1501882,
+      "cumulative_pct": 0.9837704425153228
+    },
+    {
+      "WEEK_NUM": 90,
+      "row_count": 12103,
+      "positive_cases": 330,
+      "default_rate": 0.027265967115591174,
+      "min_date_decision": "2020-09-22",
+      "max_date_decision": "2020-09-28",
+      "cumulative_row_count": 1513985,
+      "cumulative_pct": 0.9916982115849053
+    },
+    {
+      "WEEK_NUM": 91,
+      "row_count": 12674,
+      "positive_cases": 288,
+      "default_rate": 0.02272368628688654,
+      "min_date_decision": "2020-09-29",
+      "max_date_decision": "2020-10-05",
+      "cumulative_row_count": 1526659,
+      "cumulative_pct": 1.0
+    }
+  ],
+  "split_diagnostics": {
+    "train": {
+      "rows": 1065921,
+      "row_pct": 0.6982050346541041,
+      "positive_cases": 32929,
+      "default_rate": 0.03089253331156812,
+      "date_start": "2019-01-01",
+      "date_end": "2019-12-30",
+      "week_start": 0,
+      "week_end": 51,
+      "unique_case_ids": 1065921
+    },
+    "validation": {
+      "rows": 230687,
+      "row_pct": 0.1511057806622173,
+      "positive_cases": 10013,
+      "default_rate": 0.04340513336252151,
+      "date_start": "2019-12-31",
+      "date_end": "2020-04-06",
+      "week_start": 52,
+      "week_end": 65,
+      "unique_case_ids": 230687
+    },
+    "test": {
+      "rows": 230051,
+      "row_pct": 0.15068918468367853,
+      "positive_cases": 5052,
+      "default_rate": 0.02196034792285189,
+      "date_start": "2020-04-07",
+      "date_end": "2020-10-05",
+      "week_start": 66,
+      "week_end": 91,
+      "unique_case_ids": 230051
+    }
+  },
+  "target_drift": {
+    "train_validation_abs_diff": 0.012512600050953393,
+    "train_test_abs_diff": 0.008932185388716228,
+    "validation_test_abs_diff": 0.02144478543966962,
+    "max_abs_diff": 0.02144478543966962,
+    "material_shift": true,
+    "material_shift_threshold": 0.02
+  },
+  "validation": {
+    "assigned_rows": 1526659,
+    "unique_case_ids": 1526659,
+    "every_case_assigned_once": true,
+    "duplicate_case_id_count": 0,
+    "overlapping_weeks": [],
+    "no_overlapping_weeks": true,
+    "chronological_ordering": true
+  }
+}

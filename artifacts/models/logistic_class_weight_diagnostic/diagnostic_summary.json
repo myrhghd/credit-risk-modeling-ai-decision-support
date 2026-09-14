@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-13T23:19:12.501932+00:00",
+  "purpose": "bounded convergence/class-weight diagnostic before full logistic baseline",
+  "train_row_limit": 200000,
+  "eval_row_limit": 100000,
+  "batch_size": 25000,
+  "max_epochs": 5,
+  "alpha": 0.0001,
+  "preprocessing": {
+    "numeric_imputation": "train_mean",
+    "numeric_scaling": "train_standardization",
+    "categorical_encoding": "feature_hashing",
+    "categorical_missing_token": "__MISSING__",
+    "categorical_hash_features": 4096,
+    "boolean_missing_value": -1.0
+  },
+  "predictor_counts": {
+    "total": 936,
+    "numeric": 886,
+    "categorical": 47,
+    "boolean": 3
+  },
+  "verification": {
+    "target_values": [
+      0,
+      1
+    ],
+    "target_encoding": "0/1 with 1 interpreted as default",
+    "score_column": "predict_proba(...)[..., 1]",
+    "probability_direction": "higher score means higher estimated default risk",
+    "preprocessing_fit_scope": "numeric means/scales and balanced class weights fit on train only",
+    "transform_scope": "validation/test reuse train-fitted preprocessing and hashing config",
+    "predictor_count": 936,
+    "label_columns_excluded_from_predictors": true,
+    "split_case_overlaps": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "no_split_case_overlap": true
+  },
+  "results": [
+    {
+      "configuration": "unweighted",
+      "class_weight": null,
+      "train_roc_auc": 0.6519607728508254,
+      "validation_roc_auc": 0.5963183422875095,
+      "validation_pr_auc": 0.05274156635008641,
+      "validation_ks": 0.19611911059175674,
+      "validation_brier": 0.19054835597807648,
+      "validation_top_decile_lift": 0.9724550898203591,
+      "epochs_completed": 5,
+      "runtime_seconds": 4.379004429094493,
+      "train_positive_rate": 0.03016,
+      "validation_positive_rate": 0.04175
+    },
+    {
+      "configuration": "positive_weight_3",
+      "class_weight": 3.0,
+      "train_roc_auc": 0.6671453066939205,
+      "validation_roc_auc": 0.6137370862241079,
+      "validation_pr_auc": 0.05375872802603723,
+      "validation_ks": 0.2235074229313353,
+      "validation_brier": 0.29309972297324466,
+      "validation_top_decile_lift": 0.9868263473053892,
+      "epochs_completed": 5,
+      "runtime_seconds": 2.2590476321056485,
+      "train_positive_rate": 0.03016,
+      "validation_positive_rate": 0.04175
+    },
+    {
+      "configuration": "balanced",
+      "class_weight": "balanced",
+      "train_roc_auc": 0.7066127245878946,
+      "validation_roc_auc": 0.6384978942714623,
+      "validation_pr_auc": 0.061551051758146735,
+      "validation_ks": 0.23845214345636928,
+      "validation_brier": 0.5663472147248743,
+      "validation_top_decile_lift": 1.401197604790419,
+      "epochs_completed": 5,
+      "runtime_seconds": 2.289882354903966,
+      "train_positive_rate": 0.03016,
+      "validation_positive_rate": 0.04175
+    }
+  ]
+}
