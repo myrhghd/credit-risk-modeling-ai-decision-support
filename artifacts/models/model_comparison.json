@@ -1,0 +1,88 @@
+{
+  "models": [
+    {
+      "artifact_directory": "artifacts/models/logistic_baseline_full_unweighted",
+      "batch_size": 100000,
+      "calibration": {
+        "test": {
+          "intercept": -2.6956319334821344,
+          "slope": 0.43504160630150973
+        },
+        "validation": {
+          "intercept": -2.032215395366335,
+          "slope": 0.3648486285251181
+        }
+      },
+      "class_weight": null,
+      "epochs": 3,
+      "metrics": {
+        "test": {
+          "brier": 0.03868333423570202,
+          "gini": 0.48805422772055795,
+          "ks": 0.3769722648578183,
+          "pr_auc": 0.07584440445977536,
+          "roc_auc": 0.744027113860279
+        },
+        "train": {
+          "brier": 0.03212397360735909,
+          "gini": 0.49482652950499584,
+          "ks": 0.3730540895442624,
+          "pr_auc": 0.10216948986943289,
+          "roc_auc": 0.7474132647524979
+        },
+        "validation": {
+          "brier": 0.04887331402288505,
+          "gini": 0.4379791050086359,
+          "ks": 0.34116932733270905,
+          "pr_auc": 0.11759375572293011,
+          "roc_auc": 0.718989552504318
+        }
+      },
+      "model_family": "Logistic Regression",
+      "model_name": "logistic_regression_unweighted",
+      "ranking_segments": {
+        "test_top_30_pct": {
+          "cumulative_lift": 2.226158471199399,
+          "cumulative_positive_pct": 0.6678543151227236
+        },
+        "test_top_decile": {
+          "default_rate": 0.08250021733460837,
+          "lift": 3.7567809774433867
+        },
+        "validation_top_30_pct": {
+          "cumulative_lift": 2.0859277985362854,
+          "cumulative_positive_pct": 0.6257864775791471
+        },
+        "validation_top_decile": {
+          "default_rate": 0.1412718366639213,
+          "lift": 3.2547264740327586
+        }
+      },
+      "recommendation_notes": "Official Logistic Regression benchmark. Retained as both ranking and probability reference; recalibration should be reviewed before policy use.",
+      "role": "baseline",
+      "status": "official",
+      "temporal_ranges": {
+        "test": {
+          "date_end": "2020-10-05",
+          "date_start": "2020-04-07",
+          "week_end": 91,
+          "week_start": 66
+        },
+        "train": {
+          "date_end": "2019-12-30",
+          "date_start": "2019-01-01",
+          "week_end": 51,
+          "week_start": 0
+        },
+        "validation": {
+          "date_end": "2020-04-06",
+          "date_start": "2019-12-31",
+          "week_end": 65,
+          "week_start": 52
+        }
+      }
+    }
+  ],
+  "official_benchmark": "logistic_regression_unweighted",
+  "schema_version": 1
+}
